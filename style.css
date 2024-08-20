@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Nunito', sans-serif;
+    background-color: #057f04bb;
+    
+}
+.sec-1{ 
+
+        color: white;
+        display: flex;
+        padding: 10px 20px;
+        
+}
+.sec-1 img{
+    width: 75px;
+    height: 75px;
+    padding-right: 30%;
+}
+.sec-1-right {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    width: 100%;
+}
+.para {
+    justify-content: space-between;
+    margin-right: 80px;
+    font-weight: bold; 
+}
+.sec-1-right img{
+    width: 30px;
+    height: 30px;
+    padding-left: 5px;
+    
+}
+.sec-1-right a{
+        float: left;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+}
+.sec-2{
+    position: relative;
+    text-align: center;
+
+}
+.sec-2 img {
+    width: 100%;
+    height: 50%;
+}
+.sec-2-left {
+    position: absolute;
+    bottom: 38%;
+    left: 9%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 4.5vw;
+    line-height: 74px;
+    margin-bottom: 32px;
+    text-align: justify;
+    font-weight: 900; 
+    text-shadow: 1px 1px 0 #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff;
+}
+
+.button {
+    position: absolute;
+    bottom: 35%;
+    left: 9%;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+
+
+.sec-3, .sec-4 {
+    background: transparent;
+    position: relative;
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+}
+
+.sec-3-center, .sec-4-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* eth nokkanm ------- */
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 96px;
+    text-align: center;
+}
+.sec-3 img, .sec-4 img {
+    width: 100%;
+    height: 50%;
+}
+
+
+
+.oval {
+    width: 712px;
+    height: 218px;
+    border-radius: 100px;
+    margin: auto;
+    background: hsla(126, 79%, 17%, 0.70);
+}
+
+.oval h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: -62px;
+
+}
+.oval p {
+    font-size: 15px;
+    margin-bottom: -40px;
+}
+.oval button{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #ffff;
+    cursor: pointer;
+}
+footer {
+    width: 100%;
+    height: 82px;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 41px;
+  }
+.footer-cont a {
+    margin: 0 17px;
+    color: white;
+    text-decoration: none;  
+}
+
+
+
+
+
